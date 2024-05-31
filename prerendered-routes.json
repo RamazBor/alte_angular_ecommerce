@@ -1,0 +1,18 @@
+{
+  "routes": [
+    "/",
+    "/auth",
+    "/auth/recovery",
+    "/auth/recovery-verify",
+    "/auth/register",
+    "/category",
+    "/profile",
+    "/profile/cart",
+    "/profile/checkout",
+    "/profile/myProfile",
+    "/profile/orders",
+    "/profile/password-update",
+    "/profile/success-order",
+    "/profile/wishlist"
+  ]
+}
