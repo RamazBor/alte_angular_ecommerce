@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="categories">
+    <div class="featured">
+      <img src="assets/images/product-list/Featured.svg" />
+    </div>
+    <div class="latest">
+      <img src="assets/images/product-list/Latest.svg" />
+    </div>
+  </div>
+  <div class="products">
+    @for(product of latestProducts$ | async; track product.id) {
+    <alte-product-card
+      [img]="product.images"
+      [name]="product.name"
+      [available]="product.inStock"
+      [price]="product.price"
+    />
+    }
+  </div>
+</div>

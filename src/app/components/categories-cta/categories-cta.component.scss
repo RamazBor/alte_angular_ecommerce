@@ -1,0 +1,29 @@
+.container {
+  border-bottom: 1px solid var(--neutral-white-w100);
+  border-top: 1px solid var(--neutral-white-w100);
+  border-radius: 4px;
+  background: linear-gradient(90deg, #f6f6f6 0%, #fff 100%);
+  height: 304px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 120px;
+  .text-and-button {
+    .description {
+      margin: 25px 0;
+    }
+    button {
+      width: 177px;
+      height: 49px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+  }
+  .category-image {
+    img {
+      width: 225px;
+      height: 290px;
+    }
+  }
+}

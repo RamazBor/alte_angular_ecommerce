@@ -1,0 +1,11 @@
+<div class="container">
+  @for(feature of features; track feature) {
+  <div class="feature">
+    <alte-feature-item
+      [icon]="feature.icon"
+      [title]="feature.title"
+      [description]="feature.description"
+    />
+  </div>
+  }
+</div>

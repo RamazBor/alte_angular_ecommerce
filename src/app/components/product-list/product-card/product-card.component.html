@@ -1,0 +1,18 @@
+<div class="card">
+  <div class="image">
+    <img [src]="img" />
+  </div>
+  <div class="details">
+    <div class="name">
+      {{ name }}
+    </div>
+    <div class="available-and-price">
+      <div class="available">
+        {{ available | stock }}
+      </div>
+      <div class="price">
+        {{ price | currency }}
+      </div>
+    </div>
+  </div>
+</div>

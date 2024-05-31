@@ -1,0 +1,30 @@
+.feature {
+  .icon-box {
+    border-radius: 100px;
+    padding: 0px 5px;
+    width: 48px;
+    height: 48px;
+    background: var(--neutral-white-w100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      stroke-width: 1.71px;
+      stroke: var(--neutral-black-b900);
+    }
+  }
+  .title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--neutral-black-b800);
+    margin: 15px 0;
+  }
+  .description {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 175%;
+    color: var(--neutral-black-b500);
+  }
+}

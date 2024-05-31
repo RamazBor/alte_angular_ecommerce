@@ -1,0 +1,23 @@
+.container {
+  width: 1116px;
+  height: 497px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 130px auto 150px auto;
+  .categories {
+    display: flex;
+    width: 152px;
+    height: 16px;
+    .featured {
+      margin-right: 20px;
+    }
+  }
+  .products {
+    margin-top: 63px;
+    width: 1092px;
+    height: 434px;
+    display: flex;
+    gap: 15px;
+  }
+}

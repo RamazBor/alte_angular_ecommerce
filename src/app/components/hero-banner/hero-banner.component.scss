@@ -1,0 +1,12 @@
+:host {
+  display: block;
+  width: 100%;
+  height: 440px;
+  background: var(--neutral-white-w100);
+
+  .container {
+    img {
+      width: 100%;
+    }
+  }
+}

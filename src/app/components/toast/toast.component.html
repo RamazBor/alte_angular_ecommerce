@@ -1,0 +1,13 @@
+<div
+  class="toast"
+  [ngClass]="{
+        'success': type === 'success',
+        'info': type === 'info',
+        'error': type === 'error',
+      }"
+>
+  <div class="toast-icon"></div>
+  <div class="toast-message">
+    {{ message }}
+  </div>
+</div>

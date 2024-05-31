@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 100px 0;
+  .feature {
+    width: 328px;
+    height: 218px;
+    padding-right: 45px;
+  }
+}

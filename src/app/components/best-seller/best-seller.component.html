@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="text">
+    <div class="shop-now">
+      <img src="assets/images/best-selling/Shop Now.svg" />
+    </div>
+    <div class="best-selling">
+      <img src="assets/images/best-selling/Best Selling.svg" />
+    </div>
+  </div>
+  <div class="items-box">
+    @for(product of latestProducts$ | async; track product.id ) {
+    <alte-best-seller-item
+      [img]="product.images"
+      [name]="product.name"
+      [available]="product.inStock"
+      [price]="product.price"
+    />
+    }
+  </div>
+</div>

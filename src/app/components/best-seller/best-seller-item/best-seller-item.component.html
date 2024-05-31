@@ -1,0 +1,18 @@
+<div class="item">
+  <div class="image">
+    <img [src]="img" />
+  </div>
+  <div class="info">
+    <div class="name">
+      {{ name }}
+    </div>
+    <div class="price-and-available">
+      <span class="available">
+        {{ available | stock }}
+      </span>
+      <span class="price">
+        {{ price | currency }}
+      </span>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,57 @@
+.card {
+  border-radius: 4px;
+  padding: 16px 8px;
+  width: 264px;
+  height: 434px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .image {
+    img {
+      border-radius: 4px;
+      width: 248px;
+      padding: 0 5px;
+      height: 312px;
+    }
+  }
+  .details {
+    width: 248px;
+    height: 66px;
+    margin-left: 5px;
+    .name {
+      font-family: var(--font-family);
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 175%;
+      color: var(--neutral-black-b900);
+      margin: 20px 0 10px 0;
+    }
+    .available-and-price {
+      width: 239px;
+      height: 28px;
+      display: flex;
+      .available {
+        border: 1px solid var(--neutral-black-b100);
+        border-radius: 100px;
+        padding: 2px 12px;
+        width: 89px;
+        height: 28px;
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 200%;
+        text-transform: capitalize;
+        color: var(--neutral-black-b900);
+        margin-right: 15px;
+      }
+      .price {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 175%;
+        text-align: center;
+        color: var(--neutral-black-b600);
+      }
+    }
+  }
+}
